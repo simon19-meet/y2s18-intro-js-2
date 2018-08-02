@@ -1,5 +1,5 @@
-function ChangeBgColor(object){
+function ChangeBgColor(){
 	var a=prompt("Type a color");
-	var b=document.getElementsByTagName("button")[0].addEventListener("click",function(event){event.getElementsById('btn')});
+	document.body.style.background=a;
 	
 }
